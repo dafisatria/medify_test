@@ -20,4 +20,9 @@ class MasterItem extends Model
         'jenis',
         'foto'
     ];
+
+    public function kategoriItems()
+    {
+        return $this->belongsToMany(KategoriItems::class);
+    }
 }

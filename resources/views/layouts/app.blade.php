@@ -50,6 +50,12 @@
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
                         @endif
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="{{ route('master-items') }}">{{ __('Master Items') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('kategori-items') }}">{{ __('Kategori Items') }}</a>
+                        </li> -->
                         @else
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
